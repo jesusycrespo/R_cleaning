@@ -6,7 +6,7 @@ CONTENIDO
 
 run_analysis.R - script donde se visualiza paso a paso como se leen los datos, la limpieza y transformacion de los titulos y el resumen de los datos experimentales 
 README.md -resumen del archivo 
-
+CodeBook.md donde se describe la transformacion de las variables
 
 
 
