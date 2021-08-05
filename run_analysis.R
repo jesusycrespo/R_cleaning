@@ -59,6 +59,9 @@ colnames(run.data)=setNames(colnames(run.data), gsub("BodyBody", "Body", colname
 
 # calculos
 run.data.summary=run.data%>%group_by(subject_id, activity_labels) %>%summarise_each(funs(mean))
+
+write.table(run.data.summary,file="D:/curso_coursera/rundatasummary.csv",sep=';',row.names=FALSE)
+
 run.data.summary
 
 
